@@ -1,5 +1,5 @@
 # Mengambil base image dari node
-FROM node:14
+FROM node:16.13.2
  
 # Membuat direktori aplikasi pada container
 WORKDIR /app
