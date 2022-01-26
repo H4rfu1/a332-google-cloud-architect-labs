@@ -1,5 +1,5 @@
 # Mengambil base image dari node
-FROM node:16.13.2
+FROM node:16.13.2-bullseye-slim
  
 # Membuat direktori aplikasi pada container
 WORKDIR /app
